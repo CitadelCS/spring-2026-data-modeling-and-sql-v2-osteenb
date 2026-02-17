@@ -143,3 +143,4 @@ CREATE TABLE book_loans (
 CREATE INDEX IF NOT EXISTS ix_book_publisher_name ON book(publisher_name);
 CREATE INDEX IF NOT EXISTS ix_book_copies_branch  ON book_copies(branch_id);
 CREATE INDEX IF NOT EXISTS ix_book_loans_card     ON book_loans(card_no);
+--Adding a comment so I can press the commit and push button because I'm an idiot and I can't find it.
